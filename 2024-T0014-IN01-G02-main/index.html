@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MetaMakers</title>
+    <script src="https://cdn.jsdelivr.net/npm/phaser@3.54.0/dist/phaser.js"></script>
+    <style>
+      body {
+        background-color: black;
+        margin: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="game-container"></div>
+    <script type="module">
+      const videoPath = "assets/menupro.mp4";
+      import { Animacao } from "./src/game/cenas/animacao.js";
+      import { Menu } from "./src/game/cenas/menu.js";
+      import { CreditsScene } from "./src/game/cenas/creditsScene.js";
+      import { Saguao } from "./src/game/cenas/saguao.js";
+      import { Escritorio } from "./src/game/cenas/escritorio1.js";
+      import { EscritorioDois } from "./src/game/cenas/escritorio2.js";
+      import { EscritorioTres } from "./src/game/cenas/escritorio3.js";
+      import { EscritorioQuatro } from "./src/game/cenas/escritorio4.js";
+      import { EscritorioCinco } from "./src/game/cenas/escritorio5.js";
+      import { EscritorioSeis } from "./src/game/cenas/escritorio6.js";
+      import { Contratos } from "./src/game/cenas/minijogoUm/contratos.js";
+      import { ContratoUm } from "./src/game/cenas/minijogoUm/contratoUm.js";
+      import { ContratoDois } from "./src/game/cenas/minijogoUm/contratoDois.js";
+      import { ContratoTres } from "./src/game/cenas/minijogoUm/contratoTres.js";
+      import { ContratoQuatro } from "./src/game/cenas/minijogoUm/contratoQuatro.js";
+      import { ContratoCinco } from "./src/game/cenas/minijogoUm/contratoCinco.js";
+      import { Metinha } from "./src/game/UI/metinha.js";
+      import { MinigameCinco } from "./src/game/cenas/faturas/minigameCinco.js";
+      import { FaturaUm } from "./src/game/cenas/faturas/faturaUm.js";
+      import { FaturaDois } from "./src/game/cenas/faturas/faturaDois.js";
+      import { FaturaTres } from "./src/game/cenas/faturas/faturaTres.js";
+      import { FaturaQuatro } from "./src/game/cenas/faturas/faturaQuatro.js";
+      import { ChecarContrato } from "./src/game/cenas/offboarding/checar_contrato.js";
+      import { TarefasFornecedor } from "./src/game/cenas/offboarding/tarefas_fornecedor.js";
+      import { TarefasMeta } from "./src/game/cenas/offboarding/tarefas_meta.js";
+      import { PurchaseOrder } from "./src/game/cenas/offboarding/buy/purchaseOrder.js";
+      import { CloseLines } from "./src/game/cenas/offboarding/buy/closeLines.js";
+      import { Invoices } from "./src/game/cenas/offboarding/buy/invoices.js";
+      import { MinigamePran } from "./src/game/cenas/minijogoQuatro/MinigamePran.js";
+      import { MinigameQuatro } from "./src/game/cenas/minijogoQuatro/MinigameQuatro.js";
+      import { MinigameWin } from "./src/game/cenas/minijogoQuatro/MinigameWin.js";
+      import { MinijogoTres } from "./src/game/cenas/minijogoTres/minijogoTres.js";
+      import { PerguntaUm } from "./src/game/cenas/minijogoTres/perguntaUm.js";
+      import { PerguntaDois } from "./src/game/cenas/minijogoTres/perguntaDois.js";
+      import { PerguntaTres } from "./src/game/cenas/minijogoTres/perguntaTres.js";
+      import { PerguntaQuatro } from "./src/game/cenas/minijogoTres/perguntaQuatro.js";
+      import { PerguntaCinco } from "./src/game/cenas/minijogoTres/perguntaCinco.js";
+      import { MinigameTPA } from "./src/game/cenas/sourcing/minigameTpa.js";
+
+      const config = {
+        type: Phaser.AUTO,
+        width: 1200,
+        height: 860,
+        scale: {
+          mode: Phaser.Scale.FIT,
+          autoCenter: Phaser.Scale.CENTER_BOTH,
+        },
+        physics: {
+          default: "arcade",
+          arcade: {
+            debug: false,
+          },
+        },
+        parent: "game-container",
+        scene: [
+          Menu,
+          Animacao,
+          CreditsScene,
+          Saguao,
+          FaturaUm,
+          FaturaDois,
+          FaturaTres,
+          FaturaQuatro,
+          Escritorio,
+          EscritorioDois,
+          EscritorioTres,
+          EscritorioQuatro,
+          EscritorioCinco,
+          EscritorioSeis,
+          MinigameCinco,
+          Contratos,
+          ContratoUm,
+          ContratoDois,
+          ContratoTres,
+          ContratoQuatro,
+          ContratoCinco,
+          PerguntaUm,
+          PerguntaDois,
+          PerguntaTres,
+          PerguntaQuatro,
+          PerguntaCinco,
+          ChecarContrato,
+          TarefasFornecedor,
+          TarefasMeta,
+          PurchaseOrder,
+          CloseLines,
+          Invoices,
+          MinijogoTres,
+          MinigamePran,
+          MinigameQuatro,
+          MinigameWin,
+          MinigameTPA,
+        ],
+        pixelArt: true,
+      };
+      const game = new Phaser.Game(config);
+    </script>
+  </body>
+</html>

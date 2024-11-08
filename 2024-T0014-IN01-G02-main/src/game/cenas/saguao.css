@@ -1,0 +1,20 @@
+/* estilizando o body */
+body {
+    /* tornando nosso container flexível/responsivo */
+    display: flex;
+
+    /* alinhando os botões no centro (em relação do eixo vertical) */
+    justify-content: center;
+
+    /* alinhando os botões no centro (em relação ao eixo horizontal) */
+    align-items: center;
+
+    /* a tela ocupando a altura máxima permitida nos navegadores */
+    height: 100vh;
+
+    /* sem margens */
+    margin: 0;
+
+    /* cor de fundo */
+    background-color: white;
+}

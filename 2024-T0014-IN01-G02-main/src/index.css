@@ -1,0 +1,12 @@
+/* estilizando o body do html */
+body {
+    /* não repetir a imagem para preencher toda a tela do navegador */
+    background-repeat: no-repeat;
+    background-size: 61%;
+    /* centralizar a posição do plano de fundo */
+    background-position-x: center;
+}
+
+canvas {
+    height: 100vh;
+}
