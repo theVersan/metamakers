@@ -571,43 +571,8 @@ Após subir, Metinha chega ao andar inspirado no Facebook, onde há a primeira t
 
 # <a name="c4"></a>4. Desenvolvimento do Jogo
 
-## 4.1. Desenvolvimento preliminar do jogo
 
-&nbsp;&nbsp;&nbsp;&nbsp;Para a primeira versão do jogo (MVP) foram criadas uma tela inicial com botões interativos (start - options - credits); três telas de background e os sprites para o personagem jogável. Além disso, definimos algumas mecânicas relacionadas ao gameplay, como movimentação através das setas do teclado. Conforme a Figura 16 a seguir, é possível observar a tela de menu do jogo, assim como, os cenários desenvolvidos inicialmente (Figuras 17, 18 e 19) e spritesheet (ou conjunto de sprites) inicial de Metinha (Figura 20).
-
-<div align="center">
-<sub>Figura 16- Tela de menu</sub>
-<img src="/document/assets/menu_screen.jpeg" width="100%">
-<sup>Fonte: Material produzido pelos autores(2024)</sup>
-</div>
-
-<div align="center">
-<sub>Figura  17- Telas do interior</sub>
-<img src="/document/assets/office_screen.jpeg" width="100%">
-<sup>Fonte: Material produzido pelos autores(2024)</sup>
-</div>
-
-<div align="center">
-<sub>Figura 18 - Telas do interior</sub>
-<img src="/document/assets/Inview.jpeg" width="100%">
-<sup>Fonte: Material produzido pelos autores(2024)</sup>
-</div>
-
-<div align="center">
-<sub>Figura 19 - Telas do interior</sub>
-<img src="/document/assets/Inview2.jpeg" width="100%">
-<sup>Fonte: Material produzido pelos autores(2024)</sup>
-</div>
-
-<div align="center">
-<sub>Figura 20 - Sprites do personagem</sub>
-<img src="/document/assets/SPRITE METINHA (1).png" width="100%">
-<sup>Fonte: Material produzido pelos autores(2024)</sup>
-</div>
-
-&nbsp;&nbsp;&nbsp;&nbsp;Por fim, com a descrição fornecida e os elementos visuais indicados, é possível compreender a fase preliminar de desenvolvimento do jogo. <br>
-
-## 4.2. Desenvolvimento básico do jogo
+## 4.1. Desenvolvimento básico do jogo
 
 &nbsp;&nbsp;&nbsp;&nbsp;Nesta sprint, além de estabelecer a entrega do menu e dos cenários do saguão e do primeiro escritório, fizemos uma transição significativa no design, mudando de um estilo de jogo de plataforma para top-down. Isso exigiu a implementação de dois tilemaps para os cenários e a criação de um sprite para o personagem principal. No aspecto do código, foram desenvolvidas as lógicas necessárias para lidar com os tilemaps, classes para representar os diferentes elementos do jogo e a integração entre as cenas, com destaque para o uso do elevador como trigger para a transição entre os cenários.
 <br>
@@ -616,7 +581,7 @@ Após subir, Metinha chega ao andar inspirado no Facebook, onde há a primeira t
 &nbsp;&nbsp;&nbsp;&nbsp;Para a próxima sprint, planejamos implementar a trilha sonora para aumentar a imersão do jogador, estabelecer as regras do jogo para tornar a experiência mais desafiadora e envolvente, criar um inventário para gerenciar os itens colecionáveis e aprofundar as mecânicas de jogo para proporcionar uma experiência mais rica e variada. Além disso, daremos foco ao desenvolvimento da segunda fase (escritório 2), que incluirá a fase do onboarding. Também pretendemos implementar o maior número possível de fases adicionais para expandir e diversificar a experiência de jogo.
 <br>
 
-## 4.3. Desenvolvimento intermediário do jogo
+## 4.2. Desenvolvimento intermediário do jogo
 
 &nbsp;&nbsp;&nbsp;&nbsp;Inicialmente, houve avanços em relação ao design do jogo com a produção dos sprites dos NPCs "Facebot" e "Instabot", os personagens que irão acompanhar o protagonista nos dois níveis iniciais. Além disso, com o recebimento das fotos do interior do escritório da Meta em São Paulo, o saguão e o primeiro andar foram refeitos, com influência das novas fontes visuais. Ainda mais, foram produzidos os sprites dos 5 fornecedores que irão ser analisados por Metinha na fase do Sourcing, contemplando as questões de diversidade discutidas com o parceiro na idealização dos personagens. <br>
 &nbsp;&nbsp;&nbsp;&nbsp;No escopo da programação, foram adicionadas as colisões entre o cenário e o Metinha, utilizando o software "Tiled" - usado na criação dos mapas - em conjunto com a biblioteca Phaser. Ainda mais, a cena "Menu" do jogo foi refatorada, de forma que o código foi reescrito conforme o paradigma da Programação Orientada a Objetos(POO), lecionada nas aulas desta última Sprint do módulo. Embora os botões "Opções" e "Créditos" ainda não estejam funcionais, a reestruturação do programa permitiu a inclusão futura de forma simplificada. Paralelamente, o código recém-escrito também foi comentado, mantendo a clareza e a legibilidade do programa.<br>
@@ -624,7 +589,7 @@ Após subir, Metinha chega ao andar inspirado no Facebook, onde há a primeira t
 &nbsp;&nbsp;&nbsp;&nbsp;Em continuidade, ocorreu a atualização das seções do GDD que tiveram alguma alteração, assim como, a redação ddas novas seções exigidas no artefato 5. Em paralelo à documentação, o enredo dos andares 3 e 4 foram aprofundados e preparados para a confecção, em termos de história. <br>
 &nbsp;&nbsp;&nbsp;&nbsp;Dessa forma, a sprint 3 foi relevante para o desenvolvimento do jogo, pois nela ocorreu avanços importantes em todas as áreas de construção do MVP. Finalmente, para a próxima sprint, o planejamento do grupo abrange a construção dos andares 3, 4, 5 e 6, concluindo os níveis da MetaTower, com o desenvolvimento do código, a produção dos cenários, a inclusão dos diálogos didáticos e a documentação do processo.
 
-## 4.4. Desenvolvimento final do MVP
+## 4.3. Desenvolvimento final do MVP
 
 &nbsp;&nbsp;&nbsp;&nbsp;Na Sprint 4, muito progresso foi realizado em relação aos cenários: foram produzidos os mapas dos andares dois a seis da Meta Tower; ademais, esses mapas foram inspirados em aplicativos da Meta e na própria Meta e, em cada um deles, ocorrerá uma das etapas da Supplier Journey. Nesse sentido, no andar dois, inspirado no Instagram, ocorre a etapa de “Onboarding”; no andar três, cujo tema é o WhatsApp, acontecerá um mini game relacionado à etapa de “Contracting”. Ainda, a etapa de “Goods / Service delivery” irá acontecer no quarto andar, o qual foi baseado na rede social Messenger; a etapa de “Invoices and Payments”, no quinto andar, foi inspirado no Threads; e, por fim, a etapa de “Offboarding and termination” ocorre no sexto e último andar, cujo design foi inspirado na própria Meta. Outrossim, foram implementados os mapas desses andares, os quais foram integrados entre si. <br>
 &nbsp;&nbsp;&nbsp;&nbsp;Também, foram feitos os mini games dos andares cinco e seis, e iniciados os mini games dos andares três e quatro. Nesse cenário, a tarefa a ser realizada no andar três é um questionário sobre importantes termos da respectiva etapa; esse questionário é realizado pela NPC Thatis em uma plataforma esteticamente semelhante ao WhatsApp. Ainda, no mini game do andar quatro, são recebidos alguns produtos que devem ser verificados em uma lista, para confirmar se tudo foi entregue corretamente. Já no andar cinco, o objetivo é realizar o pagamento dos boletos; enquanto no andar 6, deve-se verificar se todas as etapas do contrato foram realizadas, deve-se escolher, entre as alternativas apresentadas na tela, aquelas que devem ser realizadas, primeiramente pelo fornecedor e, depois, pela própria Meta. Também, o design do mini game do primeiro andar, o qual já havia sido implementado, foi refeito de acordo com instruções da professora Bruna. <br>
@@ -633,7 +598,7 @@ Após subir, Metinha chega ao andar inspirado no Facebook, onde há a primeira t
 &nbsp;&nbsp;&nbsp;&nbsp;Portanto, a sprint 4 teve grande importância, pois nela muito progresso foi realizado, embora o projeto não tenha sido finalizado; assim, para a última sprint, é necessário finalizar o mini games dos andares três e quatro e implementá-los, implementar diálogos e realizar ajustes de acordo com os feedbacks recebidos.
 
 
-## 4.5. Revisão do MVP
+## 4.4. Revisão do MVP
 &nbsp;&nbsp;&nbsp;&nbsp;Na Sprint 5 conseguimos implementar todos os mapas do jogo, desenvolver os minigames, adicionar sons e trilha sonora, implementar as interações com NPCs, adaptar os recursos gráficos às novas especificações do projeto, refatoramos o código para ser mais legível e organizado, seguindo as boas práticas de programação, atualizamos o GDD conforme os feedbacks recebidos nas sprints anteriores e outros refinamentos foram adicionados; <br>
 &nbsp;&nbsp;&nbsp;&nbsp;Uma nova animação foi adicionada na tela inicial, antes da renderização do menu. Essa animação é composta de um metaquest sendo colocado pelo personagem, gerando uma visão em primeira pessoa que inclui o jogador no cenário do game, criando uma maior imersão; <br>
 &nbsp;&nbsp;&nbsp;&nbsp;Os minigames de todos os andares correspondem a suas respectivas etapas do Supplier Journey. Eles variam em algumas mecânicas, mas todos se baseiam em aplicar os conceitos aprendidos para realizar uma tomada de decisões assertiva que corresponda aos resultados esperados para que o jogador seja considerado “capacitado” para subir de andar e evoluir no game; <br>
