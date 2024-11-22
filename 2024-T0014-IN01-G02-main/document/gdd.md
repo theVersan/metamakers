@@ -65,7 +65,7 @@ No setor de tecnologia brasileiro, conforme [1], a Meta enfrenta concorrência a
 
 <div align="center">
 <sub>Figura 1 - As 5 forças de Porter.</sub>
-<img src="/document/assets/Forças de Porter - Meta.jpg" width="100%">
+<img src="./assets/Forças de Porter - Meta.jpg" width="100%">
 <sup>Fonte: Material produzido pelos autores (2024).</sup>
 </div>
 
@@ -75,7 +75,7 @@ No setor de tecnologia brasileiro, conforme [1], a Meta enfrenta concorrência a
 
 <div align="center">
 <sub>Figura 2 - Matriz SWOT</sub>
-<img src="/document/assets/swot.png" width="100%"><br>
+<img src="./assets/swot.png" width="100%"><br>
 <sup>Fonte: Material produzido pelos autores<sup>1</sup> (2024)</sup><br>
 <sub> <sup>1</sup>Matriz produzida a partir de [5]. <br>
 </div>
@@ -134,7 +134,7 @@ No setor de tecnologia brasileiro, conforme [1], a Meta enfrenta concorrência a
 &nbsp;&nbsp;&nbsp;&nbsp;O Canvas da Proposta de Valor, assim como diz [9] e [10], é uma ferramenta de análise de negócio que pondera as necessidades do cliente e o valor oferecido pelo produto ou serviço ofertado. Nesse sentido, compreende-se mais claramente o perfil, as dores e os trabalhos do consumidor e apresenta-se a solução de maneira adequada, a partir de aliviadores e criadores de ganho para os clientes. Desse modo, o Canvas apresenta de forma visual, clara e direta quais são os benefícios do produto ou serviço ao cliente, ao considerar suas próprias necessidades e dificuldades, conforme Figura 3.
 <div align=center>
 <sup>Figura 3 - Canvas da Proposta de Valor.</sup>
-<img src="/document/assets/Canvas Proposta de Valor.png" width=100%> <br>
+<img src="./assets/Canvas Proposta de Valor.png" width=100%> <br>
 <sub>Fonte: Material produzido pelos autores<sup>1</sup>(2024). </sub> <br>
 <sub> <sup>1</sup>Canvas produzido a partir de um template do site Strategyzer. <br>
 Disponível <a href="https://assets-global.website-files.com/64830736e7f43d491d70ef30/64bfe9c02096a9761ebe3ec0_Screenshot%202023-07-25%20at%2017.19.37.png">aqui</a>[11].</sub>
@@ -332,7 +332,7 @@ Após subir, Metinha chega ao andar inspirado no Facebook, onde há a primeira t
 &nbsp;&nbsp;&nbsp;&nbsp;Por fim, a seguir (Figura 5) estão dispostos os sprites de Metinha, em sua versão final.
 <div align='center'>
 <sup>Figura 5 - Sprites do Personagem Principal Metinha.</sup>
-<img src='/document/assets/metinhaOriginal.png' width=100%>
+<img src='./assets/metinhaReto.png' width=100%>
 <sub>Fonte: Material produzido pelos autores(2024).</sub>
 </div>
 
@@ -374,14 +374,14 @@ Após subir, Metinha chega ao andar inspirado no Facebook, onde há a primeira t
 
 | Cenário |Imagem | Explicação  |
 | ------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |------------|
-|Meta Tower| <img src="/document/assets/menu_screen.jpeg" alt="Meta Tower">  | &nbsp;&nbsp;&nbsp;&nbsp;A Meta Tower é o mundo explorável da aventura de Metinha. Com uma estética moderna e inspirada nos escritórios da Meta, cada andar da torre representa uma etapa da “Supplier Journey”.                   |
-|Saguão| <img src="/document/assets/saguao.png" alt="Saguão">| &nbsp;&nbsp;&nbsp;&nbsp;O Saguão é o primeiro ambiente que Metinha terá contato. Nesse espaço, o personagem aprenderá as mecânicas básicas de movimentação e de interação com objetos e NPCs, que serão usadas em todo o jogo. Ele é inspirado na própria Meta, com a cor azul e referências ao escritório real, como a Kombi. |
-|Andar 01| <img src="/document/assets/andarUm.png" alt="Andar 01"> | &nbsp;&nbsp;&nbsp;&nbsp;No primeiro andar, Metinha é introduzido à jornada de contratação de fornecedores; assim, o protagonista realizará suas primeiras tarefas e poderá compreender a etapa “Sourcing” de forma interativa. Essas tarefas são acessadas no computador presente na sala à esquerda. Além disso , esse andar é inspirado na rede social Facebook, com referências como a cor azul e a mesa central. |
-|Andar 02| <img src="/document/assets/andarDois.png" alt="Andar 02"> | &nbsp;&nbsp;&nbsp;&nbsp;No segundo andar, a etapa de “Onboarding” é abordada com o auxílio de um minigame acessado por meio do computador na sala à esquerda. Inspirado no Instagram, esse cenário possui elementos como tapetes com os ícones antigo e atual da rede social e como a coloração do piso. |
-|Andar 03| <img src="/document/assets/andarTres.png" alt="Andar 03"> | &nbsp;&nbsp;&nbsp;&nbsp;Nesse andar, baseado no WhatsApp, o jogador interage com a etapa de “Contracting” no minigame acessado no computador superior esquerdo. Como referência ao serviço de mensagens, há um tapete com o ícone do aplicativo e o uso das cores verde e branca. |
-|Andar 04| <img src="/document/assets/andar4.png" alt="Andar 04"> | &nbsp;&nbsp;&nbsp;&nbsp;No quarto andar, para acessar o minigame correspondente à etapa de “Goods/Service Delivery”, interage-se com  o computador na mesa central. O design é inspirado na plataforma Messenger, com mesas em formato de chat, um tapete com o ícone do serviço de mensagens e com o uso da paleta de cores	do software ao longo do cenário. |
-|Andar 05| <img src="/document/assets/mapaCinco.png" alt="Andar 05"> | &nbsp;&nbsp;&nbsp;&nbsp;O quinto andar, inspirado no Threads, é onde ocorre a etapa “Invoicing and Payments”. Alguns elementos que remetem à rede social são o tapete e o uso das cores preta e branca. Para acessar o minigame desse andar, utiliza-se o computador na mesa inferior direita.  |
-|Andar 06| <img src="/document/assets/andarSeis.png" alt="Andar 06"> | &nbsp;&nbsp;&nbsp;&nbsp;No sexto e último andar, ocorre a última etapa da Supplier Journey, “Offboarding and Termination”. Assim como nos demais andares, o acesso ao minigame ocorre em um computador, no qual a cadeira está de lado. Esse andar é inspirado na própria Meta, representada pela cor azul e pelo quadro. |
+|Meta Tower| <img src="./assets/menu_screen.jpeg" alt="Meta Tower">  | &nbsp;&nbsp;&nbsp;&nbsp;A Meta Tower é o mundo explorável da aventura de Metinha. Com uma estética moderna e inspirada nos escritórios da Meta, cada andar da torre representa uma etapa da “Supplier Journey”.                   |
+|Saguão| <img src="./assets/saguao.png" alt="Saguão">| &nbsp;&nbsp;&nbsp;&nbsp;O Saguão é o primeiro ambiente que Metinha terá contato. Nesse espaço, o personagem aprenderá as mecânicas básicas de movimentação e de interação com objetos e NPCs, que serão usadas em todo o jogo. Ele é inspirado na própria Meta, com a cor azul e referências ao escritório real, como a Kombi. |
+|Andar 01| <img src="./assets/andarUm.png" alt="Andar 01"> | &nbsp;&nbsp;&nbsp;&nbsp;No primeiro andar, Metinha é introduzido à jornada de contratação de fornecedores; assim, o protagonista realizará suas primeiras tarefas e poderá compreender a etapa “Sourcing” de forma interativa. Essas tarefas são acessadas no computador presente na sala à esquerda. Além disso , esse andar é inspirado na rede social Facebook, com referências como a cor azul e a mesa central. |
+|Andar 02| <img src="./assets/andarDois.png" alt="Andar 02"> | &nbsp;&nbsp;&nbsp;&nbsp;No segundo andar, a etapa de “Onboarding” é abordada com o auxílio de um minigame acessado por meio do computador na sala à esquerda. Inspirado no Instagram, esse cenário possui elementos como tapetes com os ícones antigo e atual da rede social e como a coloração do piso. |
+|Andar 03| <img src="./assets/andarTres.png" alt="Andar 03"> | &nbsp;&nbsp;&nbsp;&nbsp;Nesse andar, baseado no WhatsApp, o jogador interage com a etapa de “Contracting” no minigame acessado no computador superior esquerdo. Como referência ao serviço de mensagens, há um tapete com o ícone do aplicativo e o uso das cores verde e branca. |
+|Andar 04| <img src="./assets/andar4.png" alt="Andar 04"> | &nbsp;&nbsp;&nbsp;&nbsp;No quarto andar, para acessar o minigame correspondente à etapa de “Goods/Service Delivery”, interage-se com  o computador na mesa central. O design é inspirado na plataforma Messenger, com mesas em formato de chat, um tapete com o ícone do serviço de mensagens e com o uso da paleta de cores	do software ao longo do cenário. |
+|Andar 05| <img src="./assets/mapaCinco.png" alt="Andar 05"> | &nbsp;&nbsp;&nbsp;&nbsp;O quinto andar, inspirado no Threads, é onde ocorre a etapa “Invoicing and Payments”. Alguns elementos que remetem à rede social são o tapete e o uso das cores preta e branca. Para acessar o minigame desse andar, utiliza-se o computador na mesa inferior direita.  |
+|Andar 06| <img src="./assets/andarSeis.png" alt="Andar 06"> | &nbsp;&nbsp;&nbsp;&nbsp;No sexto e último andar, ocorre a última etapa da Supplier Journey, “Offboarding and Termination”. Assim como nos demais andares, o acesso ao minigame ocorre em um computador, no qual a cadeira está de lado. Esse andar é inspirado na própria Meta, representada pela cor azul e pelo quadro. |
 <div align="center">
 <sup>Fonte: Material produzido pelos autores (2024).</sup>
 </div>
@@ -408,7 +408,7 @@ Após subir, Metinha chega ao andar inspirado no Facebook, onde há a primeira t
 
 <div align="center">
 <sub>Figura 6 - Concept Art dos NPCs</sub>
-<img src="/document/assets/NPCs.png" width="100%">
+<img src="./assets/NPCs.png" width="100%">
 <sup>Fonte: Material produzido pelos autores(2024)</sup>
 </div>
 
@@ -416,7 +416,7 @@ Após subir, Metinha chega ao andar inspirado no Facebook, onde há a primeira t
 
 <div align="center">
 <sub>Figura 7 - Concept Art de Metinha</sub>
-<img src="/document/assets/metinha.png" width="100%">
+<img src="./assets/metinha.png" width="100%">
 <sup>Fonte: Material produzido pelos autores(2024)</sup>
 </div>
 
@@ -424,49 +424,49 @@ Após subir, Metinha chega ao andar inspirado no Facebook, onde há a primeira t
 
 <div align="center">
 <sub>Figura 8 - Concept Art do Saguão</sub>
-<img src="/document/assets/conceptArtSaguao.png" width="100%">
+<img src="./assets/conceptArtSaguao.png" width="100%">
 <sup>Concept art do Saguão, da bancada com NPC e notebook, da sala de espera, do letreiro da Meta e do elevador(feature para transição de cenas).</sup><br>
 <sup>Fonte: Material produzido pelos autores(2024)</sup>
 </div>
 
 <div align="center">
 <sub>Figura 9 - Concept Art do Andar 1</sub>
-<img src="/document/assets/concept_art_andar_um.jpg" width="100%">
+<img src="./assets/concept_art_andar_um.jpg" width="100%">
 <sup>Concept art do primeiro andar, inspirado no Facebook, com mesas de trabalho, da máquina de refrigerante, do café e do bebedouro e do elevador(feature para transição de cenas).</sup><br>
 <sup>Fonte: Material produzido pelos autores(2024)</sup>
 </div>
 
 <div align="center">
 <sub>Figura 10 - Concept Art do Andar 2</sub>
-<img src="/document/assets/concept_art_andar_instagram.jpg" width="100%">
+<img src="./assets/concept_art_andar_instagram.jpg" width="100%">
 <sup>Concept art do segundo andar, inspirado no Instagram.</sup><br>
 <sup>Fonte: Material produzido pelos autores(2024)</sup>
 </div>
 
 <div align="center">
 <sub>Figura 11 - Concept Art do Andar 3</sub>
-<img src="/document/assets/concept_art_andar_whatsapp.jpg" width="100%">
+<img src="./assets/concept_art_andar_whatsapp.jpg" width="100%">
 <sup>Concept art do terceiro andar, baseado no WhatsApp.</sup><br>
 <sup>Fonte: Material produzido pelos autores(2024)</sup>
 </div>
 
 <div align="center">
 <sub>Figura 12 - Concept Art do Andar 4</sub>
-<img src="/document/assets/concept_art_andar_messenger.jpg" width="100%">
+<img src="./assets/concept_art_andar_messenger.jpg" width="100%">
 <sup>Concept art do quarto andar, baseado no Messenger.</sup><br>
 <sup>Fonte: Material produzido pelos autores(2024)</sup>
 </div>
 
 <div align="center">
 <sub>Figura 13 - Concept Art do Andar 5</sub>
-<img src="/document/assets/concept_art_andar_threads.jpg" width="100%">
+<img src="./assets/concept_art_andar_threads.jpg" width="100%">
 <sup>Concept art do quinto andar, baseado no Threads.</sup><br>
 <sup>Fonte: Material produzido pelos autores(2024)</sup>
 </div>
 
 <div align="center">
 <sub>Figura 14 - Concept Art do Andar 6</sub>
-<img src="/document/assets/concept_art_andar_meta.jpg" width="100%">
+<img src="./assets/concept_art_andar_meta.jpg" width="100%">
 <sup>Concept art do sexto andar, baseado na Meta.</sup><br>
 <sup>Fonte: Material produzido pelos autores(2024)</sup>
 </div>
@@ -518,7 +518,7 @@ Após subir, Metinha chega ao andar inspirado no Facebook, onde há a primeira t
 
 <div align="center">
 <sub>Figura 15 - Diagrama de cenas</sub>
-<img src="assets/GameFlowFinal.png" width="100%">
+<img src="./assets/Diagrama de Cenas.jpg " width="100%">
 <sup>Para melhor visualização, é possível acessar a figura <a href="https://www.figma.com/file/XJcYdoF4PruuUJRL1qkHy5/GameFlow?type=whiteboard&node-id=0-1">aqui</a>.<sup><br>
 <sup>Fonte: Material produzido pelos autores (2024)</sup>
 </div>
